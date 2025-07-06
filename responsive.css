@@ -92,10 +92,10 @@
     }
      .technical-bars .bar .progress-line{
         margin-left: 59px;
-    width: 90px;
+    width: 70px;
      }
       .technical-bars .bar .progress-line span{
-        margin-left: 59px;
+        margin-left: 150px;
       }
     .container1 .Radial-Bars .radial-bars {
         width: 96px;
@@ -718,34 +718,34 @@
 
 @media(max-width:451px) {
     #projects h1 {
-        margin-left: -411px;
-        font-size: 50px;
+        margin-left: -440px;
+        font-size: 41px;
         margin-top: 496px;
     }
 
     .cards4 .projects {
-        width: 329px;
-        margin-left: -67px;
+        width: 239px;
+        margin-left: -71px;
     }
 
     .projects img {
-        width: 246px;
-        margin-left: 0px;
+        width: 160px;
+        margin-left: -1px;
     }
 
     .project-6 video {
-        width: 268px;
-        margin-left: -10px;
+        width: 160px;
+        margin-left: -1px;
     }
 
     .project-7 video {
-        width: 268px;
-        margin-left: -10px;
+        width: 160px;
+        margin-left: -1px;
     }
 
     .project-8 video {
-        width: 268px;
-        margin-left: -10px;
+        width: 160px;
+        margin-left: -1px;
     }
 
     .view p {
@@ -913,8 +913,8 @@
     }
 
     .technical-bars .bar .progress-line {
-        margin-left: 6px;
-        width: 150px;
+        margin-left: 346px;
+        width: 98px;
     }
 
     .container1 .Radial-Bars .radial-bars {
@@ -937,34 +937,51 @@
     }
 
     .technical-bars .bar .info span {
-        margin-left: 6px;
+        margin-left: 345px;
+    font-size: 13px;
     }
 
     .technical-bars .bar .info p {
-        margin-left: 6px;
+        margin-left: 345px;
     }
 
     .technical-bars .bar .bx {
-        margin-left: 6px;
+        margin-left: 345px;
     }
 
     .container1 .Radial-Bars {
-        margin-left: -541px;
-        margin-top: 915px;
+        margin-left: -471px;
+        margin-top: 1112px;
 
 
 
+    }
+   .container1 .Radial-Bars .radial-bars svg{
+        width: 102px;
     }
 
     .container1 .Radial-Bars .radial-bars {
         width: 193px;
         height: 196px;
     }
+    .container1 .Radial-Bars .radial-bars .text{
+       font-size: 12px;
+    margin-left: -52px;
+    }
 
     .contact h1 {
-        margin-left: -447px;
+        margin-left: -461px;
+        font-size: 49px;
+
+       
 
 
     }
+    .landing_page .form-box{
+        width: 200px;
+        margin-left: -30px;
+
+     }
+
 
 }
