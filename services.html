@@ -1,6 +1,12 @@
  <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <link rel="stylesheet" href="css/animate.css">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <header class="header">
        <a href="index.html" class="logo">Portfolio</a>
 
@@ -16,21 +22,21 @@
 <section>
             <div class="services" id="services">
                 <div class="container">
-                    <h1 class="sub-title">My <span>Services</span></h1>
+                    <h1 class="sub-title  wow animate__animated animate__bounceInDown">My <span>Services</span></h1>
                     <div class="services-list">
-                        <div>
+                        <div class=" wow animate__animated animate__bounceInLeft">
                             <i class='bx bx-code' style='color:#1be7ea'></i>
                             <h2>UI/UX Design</h2>
                             <p>In digital design, user interface (UI) refers to the interactivity, look, and feel of a product screen or web page, while user experience (UX) covers a user's overall experience with the product or website.</p>
                             <a href="#" class="read">Learn More</a>
                         </div>
-                        <div>
+                        <div class=" wow animate__animated animate__bounceInUp">
                             <i class='bx bx-crop' style=' color:#1be7ea'></i>
                             <h2>Web Designing</h2>
                             <p>Web design involves creating the visual elements and layout of a website, while coding involves translating these designs into a functional website using programming languages like HTML, CSS, and JavaScript.</p>
                             <a href="#" class="read">Learn More</a>
                         </div>
-                        <div>
+                        <div class=" wow animate__animated animate__bounceInRight">
                             <i class='bx bxl-apple' style='color:#1be7ea'  ></i>
                             <h2>Web Development</h2>
                             <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management.</p>
@@ -40,3 +46,8 @@
                 </div>
             </div>
         </section>
+         <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+    
